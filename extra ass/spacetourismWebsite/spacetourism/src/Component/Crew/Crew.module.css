@@ -1,0 +1,15 @@
+.crewWholeContainer
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../../public/assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    display: inline-grid;
+    grid-template-rows: 0.55fr 1fr;
+}
+.crewWholeContentContainer
+{
+    display: inline-grid;
+    grid-template-columns: 1.7fr 1fr;
+    transform: translateY(-2vh);
+}

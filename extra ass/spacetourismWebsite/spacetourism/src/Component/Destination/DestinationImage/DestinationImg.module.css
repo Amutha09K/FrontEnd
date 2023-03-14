@@ -1,0 +1,39 @@
+.DestinationImgContainer
+{
+    display: inline-grid;
+    grid-template-rows: 0.1fr 1fr;
+    padding-left: 16.3vw;
+}
+.DestinationImgContainer h3{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    /* line-height: 44px; */
+    letter-spacing: .15vw;
+    /* margin-top: 12%; */
+    text-transform: uppercase;
+    color: #D0D6F9;
+    width: 95%;
+    position: relative;
+}
+.DestinationImgContainer h3::before
+{
+    content: "01";
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 900;
+    color: #6a5d5d;
+    font-size: 2.7vh;
+    /* line-height: 30px; */
+    /* letter-spacing: 4.725px; */
+    left: -3.5vw;
+    top: 0vh;
+}
+.DestinationImgContainer img
+{
+    height: 47vh;
+    padding-top: 5vh;
+    padding-left: 4.7vw;
+}

@@ -1,0 +1,61 @@
+.wholeContainer
+{
+  height: 65vh;
+  width: 60vw;
+  background-color: rgb(255, 255, 255);
+  display: inline-grid;
+  margin: 17.5vh 20vw;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 2vw;
+  box-shadow: 0vw 0vw 3vw -2vw #173d5e;
+  grid-column-gap: 3vw;
+}
+.wholeContainer>.contentSection
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.5fr 0.5fr;
+  grid-row-gap: 5vh;
+  margin: 1.3vw;
+  width: 78%;
+}
+.wholeContainer .footer
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.wholeContainer .footer button
+{
+  border: none;
+  background: transparent;
+  font-size: 1vw;
+  font-weight: bold;
+  color: darkgray;
+  padding: 1.5vh 1.5vw;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.wholeContainer .footer button:hover
+{
+  color: #164a8a;
+}
+
+.wholeContainer .footer .nextStep:hover
+{
+  background-color: #d2e1ef !important;
+  color: #164a8a !important;
+}
+.nextStep
+{
+  background-color: #164a8a !important;
+  color: white !important;
+  border-radius: 0.5vw;
+  font-size: 1vw !important;
+}
+.footer .displayNone
+{
+  display: none !important;
+}

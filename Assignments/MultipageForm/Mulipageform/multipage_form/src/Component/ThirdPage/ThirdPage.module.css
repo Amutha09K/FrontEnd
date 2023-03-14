@@ -1,0 +1,79 @@
+.thirdPageWholeContainer
+{
+    height: 89%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr;
+    margin-top: 4vh;
+}
+.thirdPageWholeContainer .headerContainer{
+}
+.thirdPageWholeContainer .headerContainer h1{
+    font-size: 3.5vh;
+    padding-bottom: 1.4vh;
+    letter-spacing: 0.03vw;
+}
+.thirdPageWholeContainer .headerContainer p{
+    color: darkgrey;
+    letter-spacing: 0.02vw;
+    font-size: 1.57vh;
+}
+.inputContainer
+{
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2vh;
+    margin-top: 3vh;
+}
+.thirdPageWholeContainer .inputContainer .box
+{
+    height: 8vh;
+    width: 98%;
+    /* background-color: aqua; */
+    border-radius: 0.45vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0.5vh 1vw;
+    border: 1px solid #cccaca;
+}
+.box .titleContainer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 1.8vh;
+}
+.box .titleContainer p
+{
+    color: #022959;
+    font-size: 1.7vh;
+    font-weight: bold;
+}
+.box .titleContainer pre
+{
+    color: #a7a5a5;
+    /* font-weight: 200; */
+}
+.box input[type="checkbox"]
+{
+    height: 5vh;
+    width: 1.15vw;
+    margin: 1.75vh 0vw 0vh 1vw;
+}
+.box>p
+{
+    padding: 3vh 0.5vw;
+    font-size: 1.9vh;
+    color: #1d1dcf;
+}
+
+
+
+.boxClicked
+{
+    background-color:#0000ff12 !important;
+    border:0.11vw solid #0008ff54 !important
+}

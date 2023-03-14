@@ -1,0 +1,30 @@
+.AboutContentContainer
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0vw;
+}
+.AboutContentContainer2
+{
+    display: grid;
+    grid-template-columns: .251fr .61fr;
+    width: 114vh;
+}
+.AboutContentContainer2 h1{
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3vh;
+    font-weight: 100;
+    padding: 1.5vh 1vw 1vh 0.1vw;
+}
+.AboutContentContainer2 p{
+        font-family: 'Public Sans', sans-serif;
+        color: #6c8294c2;
+        line-height: 2.5vh;
+        letter-spacing: .02vw;
+        padding: 1.5vh 0vh;
+        font-weight: 100;
+        font-size: 1.4vh;
+}

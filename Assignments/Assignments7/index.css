@@ -1,0 +1,95 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(#ffeff1, #f8c2cb);
+    align-items: center;
+}
+*
+{
+    margin: 0px;
+}
+button
+{
+    position: absolute;
+    padding: 3px 7px;
+    background: radial-gradient( transparent,#ffe0e0);
+    border-radius: 16px;
+}
+span{
+    font-size: 20px;
+}
+.btn1
+{
+    transform: translate(23rem,0.5rem);
+}
+.whole_container
+{
+    /* height: 50%; */
+    width: 823px;
+    background-color: #fff8f8;
+    box-shadow: 0px 0px 18px 0px #935293;
+    border-radius: 9px;
+    text-align: center;
+}
+h1
+{
+    margin: 48px 0px 48px 0px;
+    font-size: 41px;
+}
+#Quote
+{
+    font-size: 31px;
+    margin: 30px 0px 40px 0px;
+    padding: 0px 70px 0px 70px;
+}
+#author
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    color: #0046cd;
+    padding-right: 41px;
+    margin: 30px 0px 50px 0px;
+    text-align: right;
+}
+ul
+{
+    background-color: red;
+    height: 26%;
+    width: 9%;
+    position: absolute;
+    transform: translateX(33rem);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px)
+{
+    
+#Quote
+{
+    font-size: 41px;
+}
+#author
+{
+    font-size: 33px;
+}
+h1
+{
+    font-size: 53px;
+}
+
+}
+

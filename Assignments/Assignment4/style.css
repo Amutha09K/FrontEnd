@@ -1,0 +1,196 @@
+html, body 
+{
+    height: 100%;
+    width: 100%;
+}
+*
+{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-container
+{
+    height: 60%;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+}
+.title
+{
+    margin: 6% 0% -2% 0%;
+    color: #797979;
+    font-size: 29px;
+    font-family: monospace;
+    letter-spacing: -0.5px;
+}
+.mainBox
+{
+    height: 10%;
+    width: 100%;
+    background-color: #24232C;
+    margin: 4% 0% 4% 0%;
+}
+.mainBox+div{
+    height: 77%;
+    width: 100%;
+    background-color: #24232C;
+}
+.character
+{
+    height: 16%;
+    background-color: #24232C;
+    width: 92%;
+    margin: 0% 4% 0% 4%;
+    padding-top: 6%;
+}
+.character p{
+
+    float: left;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    color: #E6E5EA;
+    margin-bottom: 4%;
+}
+.num
+{    
+    float: right;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    color: #E6E5EA;
+    margin-bottom: 4%;
+
+}
+.range
+{
+    width: 100%;
+}
+.chkBoxContainer
+{
+    text-align: left;
+    width: 92%;
+    margin: 0% 4% 0% 4%;
+    padding-top: 6%;
+}
+input[type=checkbox]
+{
+    transform: scale(1.5);
+    margin: 3% 0% 3% 0%;
+} 
+.chkBoxContainer label
+{
+    font-size: 17px;
+    color: white;
+    margin-left: 17px;
+    font-weight: bold;
+}
+input[type=checkbox]:checked
+{
+background-color: red;
+}
+.strength
+{
+    height: 5%;
+    background-color: #1d1d1d;
+    width: 90%;
+    margin: 4% 4% 0% 4%;
+    padding: 3% 1%;
+}
+.strength h3
+{
+    display: inline;
+    float: left;
+    color: #727272;
+    font-family: monospace;
+    font-size: 22px;
+}
+.strength h1
+{
+    display: inline;
+    float: left;
+    color: #727272;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 77px;
+    width: 50%;
+    text-align: right;
+}
+.strength+button
+{
+    width: 92.5%;
+    height: 10%;
+    font-size: 22px;
+    font-weight: 700;
+    background:#2b8cff;
+    margin-top: 3%;
+}
+.strength+button:hover
+{
+    background:#00a3ff;
+    cursor: pointer;
+}
+#password
+{
+    font-size: 33px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding: 13px 22px;
+    width: 86%;
+    text-align: left;
+    font-weight: bold;
+    color:  #727272;
+}
+#password+button
+{
+    position: absolute;
+    transform: translate(14rem, -3rem);
+    background: #232323;
+    border: none;
+}
+.i{
+    font-size:36px;
+    color: #2b699f;
+}
+.i:hover
+{
+    color: #2e79ba;
+}
+.strength div{
+    height: 116%;
+    width: 1.4%;
+    border: 1px solid white;
+    float: right;
+    margin: -3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

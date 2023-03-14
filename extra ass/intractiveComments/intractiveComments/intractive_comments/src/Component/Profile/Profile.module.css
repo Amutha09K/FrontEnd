@@ -1,0 +1,8 @@
+.profileContainer{
+    height: 4.4vh;
+    width: 2.5vw;
+    border-radius: 10vw;
+    background: antiquewhite;
+    background-size: cover;
+    /* margin: 2vh 0vw 2vh 1.5vw; */
+}

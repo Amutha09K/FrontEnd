@@ -1,0 +1,53 @@
+.firstPageWholeContainer
+{
+    height: 89%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr;
+    margin-top: 4vh;
+}
+.firstPageWholeContainer .headerContainer h1{
+    font-size: 3.5vh;
+    padding-bottom: 1.4vh;
+    letter-spacing: 0.03vw;
+}
+.firstPageWholeContainer .headerContainer p{
+    color: darkgrey;
+    letter-spacing: 0.02vw;
+    font-size: 1.57vh;
+}
+.inputContainer
+{
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-row-gap: 1vh;
+}
+.inputContainer label
+{
+    display: inline-flex;
+    align-items: end;
+}
+.inputContainer input[type="text"]
+{
+    border-radius: 0.5vw;
+    outline: none;
+    border: 0.13vw solid #c9cddde0;
+    font-size: 1.01vw;
+    letter-spacing: 0.04vw;
+    padding-left: 1vw;
+    color: #022959;
+    text-shadow: 1px 0px #022959;
+}
+.inputContainer input[type="text"]:focus
+{
+    border: 0.13vw solid #9d9db1bf;
+}
+
+.inputContainer input[type="text"]::placeholder
+{
+    font-size: 1vw;
+    color: darkgrey;
+    letter-spacing: 0.01vw;
+    text-shadow: none;
+}

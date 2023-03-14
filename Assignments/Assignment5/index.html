@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <link href="index.css" rel="Stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>banking application</title>
+</head>
+<body>
+    <!-- <button id="sample" onclick="register()"></button>
+    <input type="password" placeholder="Password" id="regPass" autocomplete="off"> -->
+    <!-- <button class="sample alert" onclick=""></button> -->
+
+    <button class="volumePlus"></button>
+    <button class="volumeMinus"></button>
+    <button class="onOff"></button>
+    <div class="cameraContainer">
+        <Button></Button>
+    </div>
+    <div class="wholeContainer">
+        <div class="blackScreen"></div>
+        <div class="firstPage">
+            <div></div>
+        </div>
+
+        <!-- login page -->
+        <div class="login">
+            <!-- <div id="errLoginNotification"></div> -->
+            <form>
+                <input type="text" placeholder="UserName" id="cusId" autocomplete="off">
+                <input type="password" placeholder="Password" id="pass" autocomplete="off">
+                <input type="button" value="login" onclick="login()">
+            </form>
+            <p>
+                or
+                <br>
+                <span id="createAccount">
+                    create Account
+                </span>
+            </p>
+        </div>
+
+        <!-- register -->
+        
+        <div class="register">
+            <!-- <div id="errRegNotification1"></div> -->
+            <div class="registerContainer">
+                <div class="rContainer1">
+                    <span class="regProce1">&#x279C;</span>
+                    <h1>Register Here</h1>
+                    <form>
+                        <input type="text" placeholder="FirstName" id="fname" autocomplete="off">
+                        <input type="text" placeholder="LastName" id="lname" autocomplete="off">
+                        <input type="text" placeholder="UserName" id="uname" autocomplete="off">
+                        <input type="password" placeholder="Password" id="regPass" autocomplete="off">
+                        <input type="date" placeholder="DOB" id="date" autocomplete="off">
+                        <input type="text" placeholder="Mobile No" id="mblNo" autocomplete="off">
+                        <input type="button" value="Next" onclick="regNext()" class="registerProcedure1">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- register page 2 -->
+            <!-- <div  class="register2" id="errRegNotification2"></div> -->
+        <div class="register2">
+            <div class="registerContainer2">
+                <div class="rContainer1">
+                    <span class="regProce2">&#x279C;</span>
+                    <!-- <h1>Register Here</h1> -->
+                    <form>
+                        <input type="text" placeholder="Account No" id="acNo" autocomplete="off">
+                        <input type="text" placeholder="IFSC Code" id="ifsc" autocomplete="off">
+                        <input type="text" placeholder="PIN" id="pin" autocomplete="off">
+                        <input type="button" value="Register" onclick="register()">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+	
+    <script src="index.js"></script>
+</body>
+</html>
+<!-- color: black;
+    font-size: 34px;
+    position: fixed;
+    z-index: 2;
+    transform: translate(-178px, -402px); -->

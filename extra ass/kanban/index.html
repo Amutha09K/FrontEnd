@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<meta charset="UTF-8" />
+	<title>Kanban</title>
+</head>
+<body>
+    <div class="addNew">
+        <boardForm class="boardFormContainer">
+            <formContainer>
+                <h2>Add New Board</h2>
+                <label>Name</label>
+                <input type="text" placeholder="e.g. Web Design" id="boardName">
+                <label>Columns</label>
+                <div class="columnContainer"></div>
+                <button class="columnBtn" onclick="addColumn()">+Add New Column</button>
+                <button id="createNewBoard" onclick="createNewBoard()">Create New Board</button>
+            </formContainer>
+        </boardForm>
+    </div>
+	<div class="wholecontainer">
+
+        <header class="head">
+
+            <!-- header:logo -->
+            <p id="logoTxt">
+                <img src="/assets/logo-mobile.svg" alt="logo">kanban
+            </p>
+            <button id="addNewTask">+Add New Task</button>
+
+            <!-- sidebar -->
+            <div class="sidebar" id="sidebar">
+
+            </div>
+
+        </header>
+        <div class="taskContainer">
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+

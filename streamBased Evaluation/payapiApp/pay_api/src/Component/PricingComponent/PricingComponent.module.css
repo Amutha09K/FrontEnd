@@ -1,0 +1,84 @@
+.title
+{
+    font-family: 'DM Serif Display', serif;
+    color: #ba1f5b;
+    font-weight: 100;
+    font-size: 2.8vh;
+}
+.PricingComp p
+{
+    font-family: 'Public Sans', sans-serif;
+    color: #6c8294c2;
+    line-height: 2.5vh;
+    letter-spacing: .02vw;
+    padding: 1.5vh 0vh;
+    font-weight: 100;
+    font-size: 1.4vh;
+}
+.amount
+{
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+.PricingComp ul .liChecked:before {
+    content: '✓';
+    color: #ba1f5b;
+    margin-right: 1vw;
+  }
+  .PricingComp ul{
+    transform: translateY(1.3vh);
+    display: inline-block;
+    grid-column: 2;
+    color: #5e6e7b;
+    height: 18vh;
+    width: 11vw;
+    line-height: 4vh;
+    margin-left: -4vw;
+}
+.PricingComp .liUnChecked li{
+    display: inline-block;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.52vh;
+    font-weight: 100;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 100;
+    color: #4a5565;
+}
+ul .liUnChecked{
+    color:#4a5565b3 !important;
+}
+.PricingComp ul .liUnChecked:before {
+    content: ' ';
+    margin-right: 1.75vw;
+    font-weight: 100;
+  }
+  .bottomHr
+  {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  .PricingComp button
+  {
+    height: 4.75vh;
+    width: 9vw;
+    font-size: 1.3vh;
+    border-radius: 6vw;
+    background: transparent;
+    padding: 0.8vh 1.5vh;
+    border: 1px solid;
+    font-weight: bold;
+    letter-spacing: .03vh;
+    color: #36536B;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .PricingComp button:hover
+  {
+    background:#36536B;
+    color: white;
+  }

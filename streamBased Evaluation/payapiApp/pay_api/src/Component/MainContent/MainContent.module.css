@@ -1,0 +1,214 @@
+.headerCircleImg
+{
+    transform: translate(-20vw, -16vh);
+    width: 87vh;
+    position: absolute;
+    z-index: 0;
+}
+.homeSection1
+{
+    transform: translate(12vw, 16vh);
+    width: 73vw;
+    display: inline-grid;
+    /* background: #00ff6012; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sec1TxtContainer
+{
+    grid-column: 1;
+    margin-top: 10vh;
+}
+.sec1Mobile
+{
+    grid-column: 3;
+    width: 49vh;
+    transform: translate(7vh,-6vh);
+}
+.sec1TxtContainer h1{
+    font-size: 8.7vh;
+    line-height: 8.9vh;
+    font-weight: 200;
+    color: #36536B;
+    width: 40vw;
+    font-family: 'DM Serif Display', serif;
+}
+.sec1TxtContainer p
+{
+    padding-left: 1.2vw;
+}
+.sec1TxtContainer span
+{
+    color: #6e808f;
+    font-weight: bolder;
+    letter-spacing: .01vw;
+}
+.homeSection2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 47vh;
+    width: 100vw;
+    background: #1B262F no-repeat;
+    background-image: url('../../../public/images/bg-pattern-circle.svg');
+    background-position: -9vw -28vh;
+    transform: translateY(15vh);
+}
+.homeSection2 .sec2TxtContainer
+{
+    grid-column: 1;
+    width: 26vw;
+    height: 26vh;
+    margin: 12vh 0vh 0vh 27vh;
+}
+.sec2TxtContainer h1
+{
+    font-size: 5vh;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 100;
+}
+.sec2TxtContainer p
+{
+    color: #dfdbdbd4;
+    line-height: 2.3vh;
+    letter-spacing: .02vw;
+    padding: 1.5vh 0vh;
+}
+.sec2TxtContainer button
+{
+    padding: 1.45vh 2.5vh;
+    border-radius: 5vw;
+    border: 0.1vh solid white;
+    background: transparent;
+    color: white;
+    font-size: 1.5vh;
+    font-weight: 600;
+    cursor: pointer; 
+    transition: 0.4s;
+}
+.sec2TxtContainer button:hover
+{
+    color: #36536B;
+    background: white;
+}
+
+.sec2ProductImgContainer
+{
+    grid-column: 3;
+    height: 12vh;
+    margin: 20.5vh 12vh 0vh 1vh;
+}
+
+.homeSection3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 42vh;
+    width: 100vw;
+    margin-top: 15vh;
+}
+.homeSection3 img
+{
+    margin: 4vh 2vh 3vh 14vh;
+    width: 69vh;
+}
+.homeSection3 .hoeSection3TxtContainer
+{
+    height: 20vh;
+    width: 25vw;
+    margin: 19vh 12vw 1vh 1vw;
+}
+.homeSection3 .hoeSection3TxtContainer h1, .homeSection4 .hoeSection4TxtContainer h1
+{
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+.homeSection3 .hoeSection3TxtContainer p, .homeSection4 .hoeSection4TxtContainer p
+{
+    color: #6c8294c2;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 2.8vh;
+}
+
+
+
+.homeSection4
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 73vh;
+    width: 100vw;
+    /* margin-top: 15vh; */
+    /* border: 1px solid; */
+    background:no-repeat url('../../../public/images/bg-pattern-circle.svg');
+    background-position: 77vw 0vh;
+    background-size: 73vh;
+}
+.homeSection4 .hoeSection4TxtContainer
+{
+    height: 20vh;
+    width: 25vw;
+    margin: 28vh 1vw 1vh 14vw;
+}
+.homeSection4 img
+{
+    margin: 7.5vh 2vh 3vh 4vh;
+    width: 74vh;
+    filter: drop-shadow(0px 0px 1px black);
+}
+
+.homeSection5
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 28vh;
+    width: 73.5vw;
+    padding: 3vh 23vh;
+    grid-gap: 2vw;
+
+}
+.homeSection5 .hoeSection5TxtContainer
+{
+    height: 20vh;
+    width: 25vw;
+    margin: 28vh 1vw 1vh 14vw;
+}
+.homeSection5 div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.homeSection5 div h2
+{
+    width: 18vw;
+    text-align: center;
+    margin: 0vh;
+    font-size: 1.7vh;
+    color: #36536B;
+    margin-top: -2vh;
+    margin-bottom: -4vh;
+}
+.homeSection5 div p
+{
+    width: 19vw;
+    text-align: center;
+    color: #6c8294c2;
+    margin-bottom: 3vh;
+}
+.homeSection5 .personalFinance
+{
+    grid-column: 1;
+}
+.homeSection5 .Banking
+{
+    grid-column: 2;
+}
+.homeSection5 .Payments
+{
+    grid-column: 3;
+}

@@ -1,0 +1,200 @@
+.secPageWholeContainer
+{
+    height: 89%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr;
+    margin-top: 4vh;
+}
+.secPageWholeContainer .headerContainer{
+}
+.secPageWholeContainer .headerContainer h1{
+    font-size: 3.5vh;
+    padding-bottom: 1.4vh;
+    letter-spacing: 0.03vw;
+}
+.secPageWholeContainer .headerContainer p{
+    color: darkgrey;
+    letter-spacing: 0.02vw;
+    font-size: 1.57vh;
+}
+.secPageWholeContainer .inputContainer
+{
+    display: inline-grid;
+    grid-template-rows: auto;
+    /* grid-row-gap: 1vh; */
+    height: 31vh;
+    width: 115%;
+}
+
+.secPageWholeContainer .inputContainer .box
+{
+    height: 15vh;
+    width: 8.5vw;
+    display: inline-flex;
+    margin: 3vh 0.45vw;
+    border-radius: 0.5vw;
+    border: 0.11vw solid #bbbbbb54;
+    flex-direction: column;
+    row-gap: 0.9vw;
+    font-size: 1.77vh;
+    padding: 1vh 0vw 2vh 1.55vw;
+}
+.secPageWholeContainer .inputContainer .box img
+{
+    height: 4.5vh;
+    width: 2.5vw;
+    pointer-events: none;
+}
+.secPageWholeContainer .inputContainer .box .title
+{
+    color: #0a3f81;
+    font-weight: bold;
+    pointer-events: none;
+}
+.secPageWholeContainer .inputContainer .box .amount
+{
+    font-weight: bolder;
+    color: #939393;
+    font-size: 1.6vh;
+    pointer-events: none;
+}
+.box .displayNone
+{
+    display: none;
+}
+.boxClicked
+{
+    background-color:#0000ff12 !important;
+    border:0.11vw solid #0008ff54 !important
+}
+.inputContainer .toggleContainer
+{
+    background-color: #d6d9e647;
+    height: 6vh;
+    border-radius: 0.5vw;
+    width: 98%;
+}
+.secPageWholeContainer .inputContainer .button .toggle
+{
+    height: 5vh;
+    width: 15.55vw;
+    background: #edeef1;
+    text-align: center;
+    border-radius: 0.25vw;
+}
+.secPageWholeContainer .inputContainer .button .checkbox {
+    position: relative;
+    width: 3.5vw;
+    height: 3.35vh;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+    position: relative;
+    width: 3.5vw;
+    height: 3.4vh;
+    margin: 1.295vh auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r,
+.button.r .layer {
+  border-radius: 100px;
+}
+
+.checkbox {
+    position: relative;
+    width: 3.5vw;
+    height: 3.35vh;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+.knobs {
+    z-index: 2;
+}
+.layer {
+    width: 100%;
+    background-color: #16225e;
+    transition: 0.3s ease all;
+    z-index: 1;
+    border-radius: 1vw;
+  }
+.button .knobs:before {
+      content: "O";
+      position: absolute;
+      top: 0.2vh;
+      left: 0.3vh;
+      width: 0.98vw;
+      height: 0.89vh;
+      color: #ffffff00;
+      font-size: 1vh;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1;
+      padding: 1vh 0.61vh;
+      background-color: white;
+      border-radius: 6vw;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+  }
+  
+  .button .checkbox:checked + .knobs:before {
+      left: 2.8vh;
+      background-color: white;
+    }
+  .button2 .checkbox2:checked + .knobs2:before {
+      /* content: "NO"; */
+      left: 3vh !important;
+      background-color: #464646 !important;
+    }
+  
+  .button .checkbox:checked ~ .layer {
+    background-color: #16225e;
+  }
+  
+  .button .knobs,
+  .button .knobs:before,
+  .button .layer {
+    transition: 0.3s ease all;
+  }
+
+  /* .button::after
+  {
+    content: "Yearly";
+  }
+  .button::before
+  {
+    content: "Monthly";
+  } */
+  .toggle p{
+    display: inline-block;
+    position: absolute;
+    top: 58.67vh;
+    font-size: 1.95vh;
+    font-weight: bold;
+  }
+  .toggle .year
+  {
+    left: 62.7vw;
+  }
+  .toggle .month
+  {
+    left: 53.4vw;
+  }

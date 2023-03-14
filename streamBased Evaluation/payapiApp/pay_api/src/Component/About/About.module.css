@@ -1,0 +1,77 @@
+.AboutWholeContainer
+{
+    /* border: 1px solid; */
+    /* height: 12vh; */
+    padding-top: 13vh;
+
+}
+.AboutWholeContainer .title
+{
+    display: inline-block;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    line-height: 5vh;
+    width: 34vw;
+    padding-left: 17vw;
+    padding-bottom: 6vh;
+}
+.About{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.headerCircleImg
+{
+    transform:translate(-16vw, -64vh);
+    width: 87vh;
+    position: absolute;
+    z-index: 1;
+}
+.AboutWholeContainer .CircleImg
+{
+    transform: translate(-29vw, -3vh);
+    width: 80vh;
+    position: absolute;
+    z-index: 1;
+}
+.teamImg
+{
+    width: 100vw;
+    margin-top: 6vh;
+    position: relative;
+    z-index: 2;
+}
+.teamDetailsContainer
+{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 67vw;
+    padding: 2vh 1vw 1vh 13vw;
+    grid-gap: 3.5vw;
+    margin: 5vh 1vh;
+
+}
+.teamDetailsContainer div p
+{
+    font-family: 'Public Sans', sans-serif;
+    color: #6c8294c2;
+    line-height: 2.5vh;
+    letter-spacing: .02vw;
+    padding-top: 1vh;
+    font-weight: 100;
+    font-size: 1.54vh;
+}
+.teamDetailsContainer div h1
+{
+    color: #ba1f5b;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    padding-bottom: 1.5vh;
+
+}
+.teamDetailsContainer>div{
+    border-top: 1px solid #bfcad8;
+    border-bottom: 1px solid #bfcad8;
+}

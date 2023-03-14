@@ -1,0 +1,101 @@
+.headerWholeContainer
+{
+    display: inline-block;
+    background: transparent;
+    width: 93vw;
+    padding: 10vh 0vw 0vh 7vw;
+    height: 10vh;
+}
+.headerWholeContainer img{
+    width: 5vw;
+}
+.headerWholeContainer hr{
+    display: inline-block;
+    width: 30.2vw;
+    transform: translate(2.85vw,-4vh);
+    border: 1px solid #ffffff47;
+}
+
+.headerMenuContainer
+{
+    display: inline-grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 10.6vh;
+    grid-gap: 1vw;
+    width: 54.8873vw;
+    transform: translate(2.75vw, -0.6vh);
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    position: fixed;
+    
+}
+.headerMenuContainer p
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: .16vw;
+    font-size:1.7vh;
+    font-weight: 700;
+    position: relative;
+    border: 0.11vw ;
+    width: 10.5vw;
+    cursor: pointer;
+    height: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+.headerMenuContainer .hoverEffectHome:hover
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* line-height: 23px; */
+    letter-spacing: .16vw;
+    font-size:1.7vh;
+    font-weight: 700;
+    position: relative;
+    border-bottom:0.21vw solid #bebebe7a;
+    width: 6vw;
+    margin-left: 2.253vw;
+}
+.headerMenuContainer .hoverEffectDestination:hover
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* line-height: 23px; */
+    letter-spacing: .16vw;
+    font-size:1.7vh;
+    font-weight: 700;
+    position: relative;
+    border-bottom:0.21vw solid #bebebe7a;
+    width: 10.5vw;
+    /* margin-left: 2.253vw; */
+}
+.underlineHome::before
+{
+    content: ".";
+    width: 5vw;
+    height: 0.2vh;
+    background: #d2d2d2;
+    position: absolute;
+    border: 0.051vw solid #d2d2d2;
+    color: transparent;
+    top: 10.3vh;
+}
+.underlineDestination::before
+{
+    content: ".";
+    width: 10vw;
+    height: 0vh;
+    position: absolute;
+    border: 0.051vw solid white;
+    color: transparent;
+    top: 10.3vh;
+}

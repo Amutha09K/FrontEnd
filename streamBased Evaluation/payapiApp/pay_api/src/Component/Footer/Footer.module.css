@@ -1,0 +1,58 @@
+.footerTop
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 20vh;
+}
+.footerTop h1
+{
+    width: 21vw;
+    height: 8vh;
+    grid-column: 1;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    margin: 4vh 2vw 1vh 15vw;
+}
+.EmailInput
+{
+    grid-column: 2;
+    transform: scale(0.85);
+}
+.footerBottom
+{
+    height: 9vh;
+    /* background-color: antiquewhite; */
+    background: #1B262F no-repeat;
+    background-image: url('../../../public/images/bg-pattern-circle.svg');
+    background-position: 70vw -7vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footerBottom button
+{
+    display: none;
+}
+.footerBottom img
+{
+    filter: brightness(7);
+    cursor: pointer;
+}
+.footerBottom .footersHeader
+{
+    transform: translate(0vh, -4vh) !important;
+}
+.footerBottom .footersHeader ul li
+{
+    color: #c6c6c6;
+}
+.footerBottom .mediaImgContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 2vh;
+    width: 8vw;
+    filter: brightness(2.5);
+    margin: 3.9vh 26vw 1vh 1vw;
+}

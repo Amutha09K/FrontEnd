@@ -1,0 +1,117 @@
+.destination
+{
+    padding: 0vh 0vw 0vh 6.3vw;
+}
+.destinationContentHeader ul
+{
+    display: inline-grid;
+    grid-template-columns: repeat(4,0fr);
+    width: 29.5vw;
+    color: white;
+}
+.destinationContentHeader ul li
+{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.7vh;
+    /* line-height: 23px; */
+    letter-spacing: 0.13vw;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2vh 1.5vw 0vw 2vw;
+    padding-bottom: 3vh;
+    cursor: pointer;
+}
+.destinationContentHeader ul li:hover
+{
+    border-bottom: 3px solid #6e6e6e7d;
+}
+.contents
+{
+    margin-left: 4.5vw;
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr 0.1fr 1fr;
+    margin-top: 3vh;
+    grid-row-gap: 3vh;
+}
+.contents h1
+{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.65vh;
+    /* font-size: 139px; */
+    color: #FFFFFF;
+    grid-row: 1;
+    /* /* margin: 0% 0% 0% 13%; */
+}
+.contents p
+{
+    font-family: 'Barlow';
+    height: 22%;
+    width: 63%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.74vh;
+    line-height: 3.55vh;
+    color: #D0D6F9;
+    grid-row: 2;
+    display: inline-block;
+    width: 23vw;
+}
+.contents hr
+{
+    grid-row: 3;
+    height: 0vh;
+    width: 26vw;
+}
+.footer
+{
+    display: inline-grid;
+    grid-template-columns: 11vw 10vw;
+    grid-template-rows: repeat(2,1fr);
+}
+.footer p{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    /* line-height: 44px; */
+    letter-spacing: 0.325vh;
+    /* margin-top: 12%; */
+    color: #D0D6F9;
+    font-size: 1.2vh;
+}
+.footer h3{
+    width: 100%;
+    font-size: 2.5vh;
+    color: white;
+    font-weight: 100;
+    font-family: 'Barlow';
+    height: 22%;
+}
+.footer .avgP
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+.footer .travelP
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+.footer .kiloMeter
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+.footer .years
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+.destinationContentHeader .underline
+{
+    border-bottom: 3px solid white;
+}

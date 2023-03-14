@@ -1,0 +1,42 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background: #E0F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*
+{
+    margin: 1px;
+}
+#wholeContainer
+{
+    background-color: #eefff6;
+    height: 48%;
+    width: 44%;
+    box-shadow: 0px 0px 18px -3px #005850;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    display: inline;
+}
+td{
+    padding: 2% 5%;
+}
+table {
+    height: 35%;
+    width: 47%;
+    position: fixed;
+    left: 29.5%;
+    top: 32%;
+}
+#flag
+{
+    font-size: 50px;
+    padding: 0% 0%; 
+}

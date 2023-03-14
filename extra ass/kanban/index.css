@@ -1,0 +1,336 @@
+html,body{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    font-family: Plus Jakarta Sans;
+}
+body{
+    background-color:#F4F7FD;
+    border: 1px solid red;
+    height: 1098px;
+    width: 1918px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*
+{
+    margin: 0px;
+}
+.wholecontainer
+{
+    
+position: fixed;
+}
+.head
+{
+    width: 1918px;
+    height: 95px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 1px 2px 2px #e4ebfa;
+    font-family: Plus Jakarta Sans;
+}
+#logoTxt{
+    text-align: left;
+    display: inline-block;
+    width: 290px;
+    /* background-color: red; */
+    padding: 25px 34px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-right: 2px solid #e4ebfa;
+}
+.head p img{
+    margin-right: 15px;
+    height: 30px;
+}
+.sidebar
+{
+    height: 1006px;
+    width: 358px;
+    background-color: white;
+    border-right: 2px solid #e4ebfa;
+    position: inherit;
+}
+#sideinnerDiv div
+{
+    margin: 4px 0px;
+    height: 60px;
+    width: 320px;
+    border-radius: 0px 50px 50px 1px;
+    display: flex;
+    align-items: center;
+}
+
+#sideinnerDiv div:hover
+{
+    background-color: #635FC7;
+    color: white;
+}
+/* #sideinnerDiv nav:hover
+{
+    border:1px solid red;
+    white; 
+} */
+
+
+#sideinnerDiv
+{
+    width: 360px;
+    height: 940px;
+    /* background-color:rgb(255 0 0 / 2%); */
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(130, 143, 163);
+    /* padding: 14px 35px; */
+}
+#sideinnerDiv h5
+{
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-left: 32px;
+    display: inline-block;
+    margin: 10px 0px 20px 0px;
+}
+#sideinnerDiv p
+{
+    letter-spacing: 1px;
+    font-size: 14.5px;
+    font-family: sans-serif;
+    padding: 25px 0px 25px 14px;
+    display: inline;
+}
+#platformLaunch
+{
+    margin-top: 30px;
+}
+
+#NewBoard
+{
+    color: #635FC7;
+    cursor: pointer;
+}
+#NewBoard .leftEle
+{
+    border:2px solid #635FC7;
+    /* border-bottom: 2px solid rgb(136, 136, 136); */
+}
+#NewBoard .leftInner,#NewBoard .rightEle,#NewBoard .rightInner1,#NewBoard .rightInner2
+{
+    border-bottom: 2px solid #635FC7;
+}
+#NewBoard .rightEle
+{
+border-top: 2px solid #635FC7;
+border-right: 2px solid #635FC7;
+}
+#theme
+{
+    height: 60px;
+    width: 320px;
+    background: #f1f6ff;
+    transform: translate(17px,556px);
+    border-radius: 5px;
+}
+
+
+/* icon Collage */
+
+.collageIcon
+{
+    height: 16px;
+    width: 20px;
+    border-radius: 5px;
+    display: inline;
+    padding-left: 37px;
+}
+.leftEle
+{
+    height: 12px;
+    float: left;
+    width: 5.5px;
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 4px 0px 0px 4px;
+}
+.leftInner
+{
+    height: 5px;
+    float: left;
+    width: 8px;
+    border-bottom: 2px solid rgb(136, 136, 136);
+}
+.rightEle
+{
+    height: 12px;
+    float: left;
+    width: 4.5px;
+    border-top: 2px solid rgb(136, 136, 136);
+    border-right: 2px solid rgb(136, 136, 136);
+    border-bottom: 2px solid rgb(136, 136, 136);
+    border-radius: 0px 4px 4px 0px;
+}
+.rightInner1
+{
+    height: 2px;
+    float: left;
+    width: 4px;
+    border-bottom: 2px solid rgb(136, 136, 136);
+    clear: both;
+}
+.rightInner2
+{
+    height: 3px;
+    float: left;
+    width: 5px;
+    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgb(136, 136, 136);
+    clear: both;
+}
+.creationContainer
+{
+    height: 1000px;
+    width: 2000px;
+    background-color: rgb(255, 173, 173);
+    position: fixed;
+    z-index: 3;
+}
+
+/* creation form style */
+.addNew
+{
+    height: 1101px;
+    width: 1920px;
+    background-color:rgb(0 0 0 / 42%);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boardFormContainer
+{
+    height: 520px;
+    width: 552px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.boardFormContainer formContainer
+{
+    height: 85%;
+    width: 81%;
+    /* background-color: bisque; */
+    display: block;
+}
+formContainer label
+{
+    display: block;
+    margin: 9% 0% 1% 0%;
+    font-size: 15px;
+    color: #9b99a9;
+    font-weight: bold;
+}
+formContainer input[type="text"]
+{
+    height: 5%;
+    width: 96.5%;
+    font-size: 16px;
+    padding: 9px 7px;
+    border-radius: 8px;
+    border: 1px solid #0000003b;
+}
+formContainer button
+{
+    height: 10.5%;
+    width: 100%;
+    font-size: 15.5px;
+    padding: 12px 9px;
+    border-radius: 34px;
+    border: 1px solid #0000003b;
+    margin: 9px 0px;
+    background: #635FC7;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+formContainer .columnBtn
+{
+    background: #efeef9;
+    color: #635FC7;
+    border: 0px solid white;
+}
+.columnContainer
+{
+    height: 30%;
+    width: 100%;
+    border: 1px solid #00000057;
+    overflow-y: scroll;
+    /* background-color: antiquewhite; */
+}
+.columnContainer input[type="text"] {
+    height: 5%;
+    width: 84%;
+    font-size: 16px;
+    padding: 17px 7px;
+    border-radius: 8px;
+    margin: 10px 2px 2px 6px;
+    border: 1px solid #0000003b;
+}
+.columnContainer button {
+    width: 7%;
+    height: 21%;
+    font-size: 23.5px;
+    padding: 0px 0px;
+    border-radius: 34px;
+    border: 1px solid #ffffff3b;
+    margin: 14px 6px;
+    background: white;
+    color: #9d9d9d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#addNewTask
+{
+    transform: translateX(1329px);
+    font-size: 15px;
+    background: #635FC7;
+    color: white;
+    font-weight: bold;
+    padding: 14px 18px;
+    border: 2px solid #635FC7;
+    border-radius: 31px;
+}
+
+
+
+
+
+
+
+
+/* task managing part */
+.taskContainer
+{
+    height: 1007px;
+    width: 1919px;
+    background-color: aquamarine;
+    /* border: 2px solid black; */
+    position: relative;
+    transform: translateY(46px);
+    z-index: -1;
+}

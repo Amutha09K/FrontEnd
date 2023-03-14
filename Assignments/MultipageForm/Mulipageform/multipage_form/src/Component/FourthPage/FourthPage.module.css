@@ -1,0 +1,66 @@
+.fourthPageWholeContainer
+{
+    height: 89%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr;
+    margin-top: 4vh;
+}
+.fourthPageWholeContainer .headerContainer{
+}
+.fourthPageWholeContainer .headerContainer h1{
+    font-size: 3.5vh;
+    padding-bottom: 1.4vh;
+    letter-spacing: 0.03vw;
+}
+.fourthPageWholeContainer .headerContainer p{
+    color: darkgrey;
+    letter-spacing: 0.02vw;
+    font-size: 1.57vh;
+}
+.inputContainer
+{
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-row-gap: 1vh;
+}
+.inputContainer .form
+{
+    height: auto;
+    padding: 5vh 0vw 1vh 0vw;
+    display: grid;
+    grid-template-rows: 0.02fr 0.01fr 0.5fr;
+    grid-template-columns: 1fr;
+    grid-gap: 3vh;
+}
+.amountDetails h2, .form h2, .form>h3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottomCalc
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5vw;
+    height: auto;
+}
+.bottomCalc h2, .form>h3
+{
+    font-weight: 100 !important;
+    font-size: 1.8vh !important;
+    color: darkgrey !important;
+}
+.bottomCalc span, .form h3>span
+{
+    color: black;
+}
+.form h3>span
+{
+    font-weight: 800;
+    font-size: 2vh !important;
+    color: rgb(57, 57, 240) !important;
+}

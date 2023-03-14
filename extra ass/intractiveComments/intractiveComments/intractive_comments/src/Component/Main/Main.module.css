@@ -1,0 +1,60 @@
+.mainWholeContainer
+{
+    height: 94vh;
+    width: 56vw;
+    /* background: white; */
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    grid-row-gap: 0.5vh;
+}
+.mainWholeContainer>section
+{
+    display: grid;
+    grid-template-columns: .2fr 2fr .4fr;
+    box-shadow: 0vw -1vw 4.5vw -3.1vw #6258f1;
+    border-radius: 0.5vw;
+    border: 1px solid #8080801c;
+}
+textarea
+{
+    height: 10vh;
+    width: 40vw;
+    margin: 1vh 1vw 1vh 0.8vw;
+    border-radius: 0.4vw;
+    border: 0.1045vw solid #cfcfcf4f;
+    outline: none;
+    resize: none;
+}
+button
+{
+    height: 4.5vh;
+    width: 6vw;
+    border-radius: 0.35vw;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    background: #49b3b3;
+    margin: 1.5vh 0vw;
+}
+.commentContainer
+{
+    padding-bottom: 2vh;
+    grid-row-gap: 2.5vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.repliesContainer
+{
+    grid-row-gap: 2.5vh;
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-direction: column;
+    border-left: 0.15vw solid #b8b7c547;
+    margin-left: 2vw;
+    width: 90.5%;
+}
+.repliesContainer>div
+{
+    width: ;
+}

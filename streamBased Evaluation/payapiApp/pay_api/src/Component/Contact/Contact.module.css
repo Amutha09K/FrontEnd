@@ -1,0 +1,170 @@
+.contactContainer
+{
+    padding-top: 13vh;
+}
+.contactContainer .title
+{
+    display: inline-block;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+    line-height: 5vh;
+    width: 34vw;
+    padding-left: 17vw;
+    padding-bottom: 6vh;
+}
+.contactContainer .formProductContainer
+{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16vh;
+    width: 76vw;
+    padding-left: 15vw;
+}
+.contactContainer .form, .contactContainer .form div
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.contactContainer .form input[type="text"], .contactContainer .form input[type="email"], .contactContainer textarea
+{
+    background-color: transparent;
+    height: 5vh;
+    font-size: 2vh;
+    border: none;
+    padding-bottom: 0.5vh;
+    border-bottom: 2px solid #bfc5c9;
+    outline: none;
+    resize: none;
+    padding-left: 1vw;
+    color: #455265;
+    border-radius: 5px;
+}
+.contactContainer .form input[type="text"]::placeholder,.contactContainer .form input[type="email"]::placeholder, .contactContainer textarea::placeholder
+{
+    font-size: 1.5vh;
+    color: #4552657a;
+}
+.form label
+{
+    font-family: 'Public Sans', sans-serif;
+    color: #6c8294c2;
+    line-height: 2.5vh;
+    letter-spacing: .02vw;
+    padding-top: 1vh;
+    font-weight: 100;
+    font-size: 1.54vh;
+    padding-left: 1vw;
+}
+.chkBox
+{
+    flex-direction: row !important;
+}
+.chkBox p
+{
+    font-family: 'Public Sans', sans-serif;
+    color: #6c8294c2;
+    line-height: 2.5vh;
+    letter-spacing: .02vw;
+    padding-top: 1vh;
+    font-weight: 100;
+    font-size: 1.54vh;
+}
+
+.headerCircleImg
+{
+    transform:translate(-16vw, -64vh);
+    width: 87vh;
+    position: absolute;
+    z-index: 1;
+}
+.chkBox input[type="checkbox"]
+{
+    height: 3vh;
+    width: 1.25vw;
+    margin: 1.1vh 1.5vw 1vh 1vw;
+    background: #3a4044c2;
+    accent-color: #ba1f5b;
+    cursor: pointer;
+}
+.chkBox p{
+    width: 22vw;
+    font-size: 1.4vh;
+    padding-top: 0vh;
+    color: #3a4044c2;
+}
+.productContainer img
+{
+    filter: brightness(0.22);
+}
+.productContainer h2
+{
+    display: inline-block;
+    color: #36536bbd;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.35vh;
+    font-weight: 100;
+    /* line-height: 5vh; */
+    width: 26vw;
+    padding-top: 7vw;
+    padding-bottom: 6vh;
+}
+
+.form button
+{
+  height: 4.75vh;
+  width: 9vw;
+  font-size: 1.3vh;
+  border-radius: 6vw;
+  background: transparent;
+  padding: 0.8vh 1.5vh;
+  border: 1px solid;
+  font-weight: bold;
+  letter-spacing: .03vh;
+  color: #36536B;
+  transition: .4s;
+  cursor: pointer;
+}
+.form button:hover
+{
+  background:#36536B;
+  color: white;
+}
+.validationBox
+{
+    border-bottom:2px solid #ff9090 !important;
+    box-shadow: 0px 0px 20px -16px red;
+}
+
+.alert
+{
+    color: #cd1c1c;
+    transform: translate(10vw, -3vh);
+    display: none;
+}
+.chkBoxAnimation
+{
+    animation: shaking;
+    animation-duration: 2s;
+    /* animation-delay: 5s; */
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-iteration-count: 1;
+    filter: drop-shadow(0px 0px 0.75px red);
+}
+
+@keyframes shaking {
+    0% {
+        transform: rotate(20deg);
+        /* height: 2vh;
+        width: 2vh; */
+    }
+    /* 50% {
+        transform: rotate(1deg);
+    } */
+    100% {
+        transform: rotate(359deg);
+    }
+}

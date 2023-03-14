@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Clock App</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="index.css" rel="styleSheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div class="backLight">
+
+	</div>
+	<div class="wholeContainer">
+		<div class="div">
+			<div class="quoteTimeContainer">
+
+				<quote>
+					<p id="quote">
+						Loading....
+					</p> 
+					<button onclick="randomQuote()"><img src="assets/desktop/icon-refresh.svg" id="moonSun"></button>
+					<p class="author">
+					</p>
+				</quote>
+
+				<timeDiv>
+					<img id="timeImg">
+					<p class="wishTime"></p><br>
+					<time>
+						<h1 id="currentTime"></h1>
+						<p> IST</p>
+						<h2 id="timeZone"></h2>
+					</time>
+				</timeDiv>
+
+			</div>
+
+			<button class="more">MORE<img src="assets/desktop/icon-arrow-up.svg"></button>
+
+			<div id="countryDetails">
+
+				<div class="timeDetails">
+
+					<div class="timeDetails1">
+						<curTimeZone>
+							<p>CURRENT TIMEZONE</p>
+							<h1 id="timeZone2"></h1>
+						</curTimeZone>
+						<year>
+							<p>YEAR</p>
+							<h1 id="yearTxt"></h1>
+						</year>
+					</div>
+
+					<div class="timeDetails2">
+						<Day>
+							<p>DAY</p>
+							<h1 id="day"></h1>
+						</Day>
+						<week>
+							<p>WEEK NUMBER</p>
+							<h1 id="weekNum"></h1>
+						</week>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+	<script src="animation.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

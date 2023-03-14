@@ -1,0 +1,34 @@
+.pricingContainer
+{
+    display: grid;
+    grid-template-rows: 0.495fr 1fr 1fr;
+    margin-top: 12vh;
+    /* background: antiquewhite; */
+    width: 75vw;
+    margin-left: 13.5vw;
+    /* border: 1px solid; */
+    height: 80vh;
+}
+.pricingContainer>h1
+{
+    grid-row: 1;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vh;
+    font-weight: 100;
+}
+.pricingCompContainer
+{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3vw;
+    height: 45vh;
+}
+.headerCircleImg
+{
+    transform: translate(-13vw, -63vh);
+    width: 87vh;
+    position: absolute;
+    z-index: 1;
+}
