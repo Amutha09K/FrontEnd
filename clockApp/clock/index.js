@@ -1,7 +1,7 @@
 
 
 
-let Time,curTime="",AmOrPm="";
+let Time,curTime="",AmOrPm=""
 
 //https://api.ipgeolocation.io/timezone?apiKey=API_KEY&ip=1.1.1.1
 function getTime()
